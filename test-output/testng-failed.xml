@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="automationFramework.FirstTestCase">
+        <methods>
+          <include name="tab_user_info"/>
+          <include name="fill_out_user_info_bu"/>
+          <include name="change_pw"/>
+          <include name="rememberMe_pw"/>
+          <include name="tab_data_NPWPD"/>
+          <include name="fill_out_user_info_individu"/>
+          <include name="landing_page_cari_NOP"/>
+          <include name="landing_page_cari_NOP"/>
+          <include name="login_to_lupa"/>
+          <include name="launch_browser"/>
+          <include name="login_to_regis"/>
+          <include name="quit_browser"/>
+          <include name="regis_to_login"/>
+          <include name="tab_change_password"/>
+          <include name="go_to_profil"/>
+          <include name="regis_success"/>
+          <include name="login_new_pw"/>
+          <include name="lupa_to_login"/>
+          <include name="logout_success"/>
+          <include name="rememberMe_email"/>
+          <include name="login_success"/>
+          <include name="landing_page_to_login"/>
+        </methods>
+      </class> <!-- automationFramework.FirstTestCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
