@@ -4,7 +4,7 @@
   "description": "amazon testing",
   "main": "server.js",
   "scripts": {
-    "test": "testcafe chrome test.js --app \"node server.js\""
+    "test": "testcafe -e chrome test.js --app \"node server.js\""
   },
   "repository": {
     "type": "git",
