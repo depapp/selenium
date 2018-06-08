@@ -28,7 +28,7 @@ fixture `amazon testing`
 
 test('satu', async t => {
     await t
-        .maximizeWindow()
+        //.maximizeWindow()
         .hover(departments)
         .hover(electro)
         .click(tv)
