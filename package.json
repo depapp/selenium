@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Basic TestCafe API example",
   "main": "test.js",
-  "scripts": {},
+  "scripts": {
+    "test":  "testcafe chrome,firefox test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DevExpress/testcafe.git"
