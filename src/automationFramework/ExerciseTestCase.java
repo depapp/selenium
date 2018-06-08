@@ -22,8 +22,8 @@ public class ExerciseTestCase {
 		/******1. Launch Application******/
 		//Launch the URL
 		driver.manage().window().maximize();
-		driver.get("https://www.amazon.com/");
-	    System.out.println("1. Successfully opened the website www.amazon.com"+"\n");
+		driver.get("https://www.instagram.com/");
+	    System.out.println("1. Successfully opened the website www.instagram.com"+"\n");
 		
 		/******2. Select product by Departments -> Electronics, Computers & Office -> TV & Video******/
 		//Action class object
