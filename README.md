@@ -1,5 +1,5 @@
-# selenium
-Selenium Exercise Scripts
+# Selenium
+> Selenium project example
 
-built with:
+# Tested with:
 [![Build Status](https://travis-ci.org/depapp/selenium.svg?branch=master)](https://travis-ci.org/depapp/selenium)
